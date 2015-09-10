@@ -14,7 +14,7 @@ public class Riothorn {
     final Invocable invocable;
 
     public Riothorn() {
-        this(new ScriptEngineManager().getEngineByName("rhino"));
+        this(new ScriptEngineManager().getEngineByName("JavaScript"));
     }
 
     public Riothorn(ScriptEngine scriptEngine) {
