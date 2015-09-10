@@ -521,7 +521,7 @@ function _each(dom, parent, expr) {
     })
     .on('update', function () {
       var items = tmpl(expr.val, parent)
-      java.lang.System.out.println(items);
+
       // object loop. any changes cause full redraw
       if (!isArray(items)) {
 
