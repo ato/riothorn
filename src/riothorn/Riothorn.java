@@ -24,6 +24,7 @@ public class Riothorn {
             // rhino's global() confuses the browserify prelude, remove it
             engine.eval("global = undefined;");
 
+            engine.put(ScriptEngine.FILENAME, "riot-server.js");
             engine.eval(reader);
 
             // invokeFunction doesn't seem to work with namespacing
