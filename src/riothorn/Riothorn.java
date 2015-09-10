@@ -51,7 +51,7 @@ public class Riothorn {
             evaled = engine.eval(code);
         }
 
-        String renderJson(Object opts) {
+        public String renderJson(Object opts) {
             try {
                 return (String)invocable.invokeFunction("renderJson", evaled, opts);
             } catch (ScriptException | NoSuchMethodException e) {
