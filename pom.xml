@@ -4,7 +4,7 @@
   <name>riothorn</name>
   <groupId>org.meshy.riothorn</groupId>
   <artifactId>riothorn</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1-SNAPSHOT</version>
 
   <build>
     <sourceDirectory>${basedir}/src</sourceDirectory>
