@@ -1,6 +1,8 @@
 # Riothorn
 
-**STATUS:** Incomplete and experimental.
+**STATUS:** Abandoned experiment. I'm not using or developing this anymore but feel free to fork it. 
+
+
 
 Renders [Riot](http://riotjs.com/) tags on the JVM using the Nashorn or Rhino JavaScript engines.
  
